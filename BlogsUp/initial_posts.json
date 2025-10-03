@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Web Development",
+    "content": "# Getting Started with Web Development\n\nWeb development is an exciting field that combines creativity with technical skills. In this post, we'll explore the fundamentals of HTML, CSS, and JavaScript.\n\n## The Three Pillars\n\n1. **HTML** - The structure of your web pages\n2. **CSS** - The styling and layout\n3. **JavaScript** - The interactivity and dynamic behavior\n\n> Learning web development opens up a world of possibilities for creating digital experiences.\n\nStart your journey today!",
+    "author": "Jane Developer",
+    "date": "2023-10-15",
+    "tags": ["web development", "beginners", "html", "css"],
+    "likes": 42,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "comments": [
+      {
+        "id": 1,
+        "author": "John Reader",
+        "content": "Great introduction for beginners!",
+        "date": "2023-10-16"
+      },
+      {
+        "id": 2,
+        "author": "Sarah Coder",
+        "content": "Would love to see more about CSS frameworks.",
+        "date": "2023-10-17"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Power of CSS Grid",
+    "content": "# The Power of CSS Grid\n\nCSS Grid has revolutionized how we create layouts on the web. It's a two-dimensional system that gives us unprecedented control over both rows and columns.\n\n## Key Features\n\n- **Two-dimensional layouts** - Control both rows and columns simultaneously\n- **Flexible sizing** - Use fr units for flexible grid tracks\n- **Grid areas** - Name areas of your layout for easier placement\n- **Alignment control** - Precise control over item alignment\n\n```css\n.container {\n  display: grid;\n  grid-template-columns: 1fr 2fr 1fr;\n  grid-gap: 20px;\n}\n```\n\nEmbrace the power of CSS Grid in your next project!",
+    "author": "Alex Designer",
+    "date": "2023-10-10",
+    "tags": ["css", "layout", "web design", "frontend"],
+    "likes": 28,
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    "comments": [
+      {
+        "id": 1,
+        "author": "Mike Frontend",
+        "content": "Grid has made my layouts so much cleaner!",
+        "date": "2023-10-11"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Understanding JavaScript Closures",
+    "content": "# Understanding JavaScript Closures\n\nClosures are a fundamental concept in JavaScript that every developer should understand. A closure gives you access to an outer function's scope from an inner function.\n\n## How Closures Work\n\nWhen a function is declared, it has access to variables in its own scope, the outer function's scope, and the global scope. Even after the outer function has returned, the inner function maintains access to the outer function's variables.\n\n```javascript\nfunction createCounter() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\n\nconst counter = createCounter();\nconsole.log(counter()); // 1\nconsole.log(counter()); // 2\n```\n\nThis is just the beginning of what closures can do!",
+    "author": "Sam JavaScript",
+    "date": "2023-10-05",
+    "tags": ["javascript", "programming", "closures", "functions"],
+    "likes": 35,
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    "comments": []
+  }
+]
